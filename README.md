@@ -1,8 +1,8 @@
-# 🎯 Quiz Game
+# Quiz Game
 
 A simple interactive quiz game built with HTML, CSS & JavaScript — multiple choice questions, countdown timer, and score tracking.
 
-## 🚀 Features
+## Features
 
 - Multiple choice questions (4 answers each)
 - Countdown timer per question
@@ -10,20 +10,20 @@ A simple interactive quiz game built with HTML, CSS & JavaScript — multiple ch
 - Results screen with final score
 - Play again button
 
-## 🛠️ Built With
+## Built With
 
 - **HTML** — page structure and question cards
 - **CSS** — styling and responsive layout
 - **JavaScript** — game logic, timer, and score tracking
 
-## 👥 Team
+## Team
 
-| Name | Role |
-|------|------|
+| Name    | Role       |
+| ------- | ---------- |
 | TheeDev | HTML + CSS |
 | NicaDev | JavaScript |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 quiz-game/
@@ -32,7 +32,7 @@ quiz-game/
 └── script.js        # Game logic
 ```
 
-## 🎮 How to Play
+## How to Play
 
 1. Open `index.html` in your browser
 2. Click **Start** to begin
@@ -40,7 +40,7 @@ quiz-game/
 4. See your final score at the end
 5. Click **Play Again** to restart
 
-## 🔧 Setup
+## Setup
 
 No installation needed. Just clone the repo and open `index.html`:
 
@@ -49,5 +49,3 @@ git clone https://github.com/your-username/quiz-game.git
 cd quiz-game
 open index.html
 ```
-
-

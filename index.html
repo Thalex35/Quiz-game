@@ -18,6 +18,8 @@
       content="A fun and interactive quiz game to test your knowledge on various topics. Challenge yourself and compete with friends!"
     />
     <meta property="og:type" content="website" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Quiz Game</title>
   </head>
   <body>
@@ -32,6 +34,10 @@
       <h2>Loading...</h2>
     </div>
     <div id="quiz_screen">
+      <div id="progress_text">Question 1 of 10</div>
+      <div id="progress_bar"></div>
+      <div id="score_text">0/10</div>
+      <div id="timer_text">Timer: 30</div>
       <h2 id="question_text"></h2>
       <div id="answer_buttons">
         <button class="answer_button" id="answer_button_0"></button>

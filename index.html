@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A fun and interactive quiz game to test your knowledge on various topics. Challenge yourself and compete with friends!"
+    />
+    <meta
+      name="keywords"
+      content="quiz game, trivia, knowledge test, fun, interactive, challenge, friends"
+    />
+    <meta name="author" content="Theodore & Djenica" />
+    <meta property="og:title" content="quiz game" />
+    <meta
+      property="og:description"
+      content="A fun and interactive quiz game to test your knowledge on various topics. Challenge yourself and compete with friends!"
+    />
+    <meta property="og:type" content="website" />
+    <title>Quiz Game</title>
+  </head>
+  <body>
+    <div id="welcoming_screen">
+      <h1>Welcome to the Quiz Game!</h1>
+      <button id="start_button">Start Quiz</button>
+    </div>
+    <div id="category_screen">
+      <h2>Select a Category</h2>
+    </div>
+    <div id="loading_screen">
+      <h2>Loading...</h2>
+    </div>
+    <div id="quiz_screen">
+      <h2 id="question_text"></h2>
+      <div id="answer_buttons">
+        <button class="answer_button" id="answer_button_0"></button>
+        <button class="answer_button" id="answer_button_1"></button>
+        <button class="answer_button" id="answer_button_2"></button>
+        <button class="answer_button" id="answer_button_3"></button>
+      </div>
+    </div>
+    <div id="results_screen">
+      <h2 id="results_text"></h2>
+      <p id="results_description"></p>
+      <button id="play_again_button">Play Again</button>
+    </div>
+  </body>
+</html>

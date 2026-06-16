@@ -23,17 +23,17 @@
     <title>Quiz Game</title>
   </head>
   <body>
-    <div id="welcoming_screen">
+    <div id="welcoming_screen" class="screen hidden">
       <h1>Welcome to the Quiz Game!</h1>
       <button id="start_button">Start Quiz</button>
     </div>
-    <div id="category_screen">
+    <div id="category_screen" class="screen hidden">
       <h2>Select a Category</h2>
     </div>
     <div id="loading_screen">
       <h2>Loading...</h2>
     </div>
-    <div id="quiz_screen">
+    <div id="quiz_screen" class="screen hidden">
       <div id="progress_text">Question 1 of 10</div>
       <div id="progress_bar"></div>
       <div id="score_text">0/10</div>
@@ -46,7 +46,7 @@
         <button class="answer_button" id="answer_button_3"></button>
       </div>
     </div>
-    <div id="results_screen">
+    <div id="results_screen" class="screen hidden">
       <h2 id="results_text"></h2>
       <p id="results_description"></p>
       <button id="play_again_button">Play Again</button>

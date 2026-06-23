@@ -10,3 +10,11 @@ export const next_question_button = document.getElementById(
   "next_question_button",
 );
 export const finish_button = document.getElementById("finish_button");
+export const question_text = document.getElementById("question_text");
+export const answer_buttons = document.querySelectorAll(".answer_button");
+export const progress_text = document.getElementById("progress_text");
+export const score_text = document.getElementById("score_text");
+export const results_text = document.getElementById("results_text");
+export const results_description = document.getElementById(
+  "results_description",
+);

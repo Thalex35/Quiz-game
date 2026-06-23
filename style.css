@@ -84,3 +84,18 @@ button:hover {
 .answer_button:hover {
   background: #dbeafe;
 }
+
+.answer_button.correct {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.answer_button.wrong {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.answer_button:disabled {
+  cursor: not-allowed;
+  opacity: 0.85;
+}
